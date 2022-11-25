@@ -13,7 +13,7 @@ class TestSum(unittest.TestCase):
         result = summation(data)
         self.assertEqual(result, 500)
 
-    def test_list_int(self):
+    def test_list_int_1(self):
         """
         Test case to add two numbers
         """
@@ -21,7 +21,7 @@ class TestSum(unittest.TestCase):
         result = summation(data)
         self.assertEqual(result, 5005)
       
-    def test_list_int(self):
+    def test_list_int_2(self):
         """
         Test case to add two numbers
         """
@@ -29,7 +29,7 @@ class TestSum(unittest.TestCase):
         result = summation(data)
         self.assertEqual(result, 40)
      
-    def test_list_int(self):
+    def test_list_int_3(self):
         """
         Test case to add two numbers
         """
@@ -37,7 +37,7 @@ class TestSum(unittest.TestCase):
         result = summation(data)
         self.assertEqual(result, 0)
       
-    def test_list_int(self):
+    def test_list_int_4(self):
         """
         Test case to add two numbers
         """
